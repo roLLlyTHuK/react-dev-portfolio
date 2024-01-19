@@ -3,14 +3,11 @@ import htmlIcon from './tech/html.png';
 import cssIcon from './tech/css.png';
 import jsIcon from './tech/javascript.png';
 import reactIcon from './tech/reactjs.png';
-
 import gitIcon from './tech/git.png';
 import githubIcon from './tech/github.png';
 import figmaIcon from './tech/figma.png';
-
 import viteIcon from './tech/vite.svg';
 import nodeIcon from './tech/node.webp';
-
 import close from './close.svg';
 import menu from './menu.svg';
 

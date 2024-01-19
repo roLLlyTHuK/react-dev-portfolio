@@ -1,3 +1,4 @@
+import { faLeaf } from '@fortawesome/free-solid-svg-icons';
 import MarqueeCards from '../Components/MarqueeCards';
 import SectionTitle from '../Components/SectionTitle';
 import SkillsCards from '../Components/SkillsCards';
@@ -7,7 +8,7 @@ const Skills = () => {
     <div id="skills" className="w-full overflow-hidden-web flex justify-center">
       <div className="w-full flex flex-col xl:w-[70%]">
         <SectionTitle title="SKILLS" subtitle="WHAT I DO" />
-        <div className="absolute top-[45px] w-full h-[1px] bg-primary-400"></div>
+
         <MarqueeCards direction="right">
           <SkillsCards />
         </MarqueeCards>

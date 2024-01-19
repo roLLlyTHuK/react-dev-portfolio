@@ -213,6 +213,13 @@ const skills = [
     description:
       'When it comes to building web applications, I prefer using Node as my runtime environment over Yarn. I have expertise in leveraging Node.js to develop powerful and scalable web applications.',
   },
+  {
+    id: 'figma',
+    title: 'Figma',
+    icon: figmaIcon,
+    description:
+      'When it comes to building web applications, I prefer using Node as my runtime environment over Yarn. I have expertise in leveraging Node.js to develop powerful and scalable web applications.',
+  },
 ];
 
 const markerSvg = `<svg viewBox="-4 0 36 36">

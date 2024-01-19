@@ -5,7 +5,6 @@ const SkillsCards = () => {
     <div
       style={{
         display: 'flex',
-        flexDirection: 'row',
         gap: '20px',
         margin: '20px 10px',
         justifyContent: 'center',
