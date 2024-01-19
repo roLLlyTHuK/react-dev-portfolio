@@ -1,12 +1,3 @@
-/*
-   Copyright (C), 2023-2024, Sara Echeverria (bl33h)
-   Author: Sara Echeverria
-   FileName: ProjectCards.jsx
-   Version: I
-   Creation: 02/06/2023
-   Last modification: 03/06/2023
-*/
-
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { projects } from '../Constants/constants';
@@ -138,7 +129,7 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className="text-grayscale-50 p-1 rounded-lg sm:w-[280px] w-full"
+        className="text-grayscale-50 p-1 rounded-lg sm:w-[280px]  w-full"
       >
         <div className="relative w-full h-[180px]">
           <img
@@ -146,18 +137,6 @@ const ProjectCard = ({
             alt={name}
             className="w-full h-full object-cover rounded-lg"
           />
-          <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
-            <div
-              onClick={() => window.open(source_code_link, '_blank')}
-              className="black-gradient w-8 h-8 rounded-full flex justify-center items-center cursor-pointer"
-            >
-              <img
-                src={githubIcon}
-                alt="github"
-                className="w-15 h-15 object-contain"
-              />
-            </div>
-          </div>
         </div>
 
         <div className="mt-3">
@@ -173,7 +152,6 @@ const ProjectCard = ({
             href={source_code_link}
             target="_blank"
           >
-            {' '}
             <img
               src={githubIcon}
               alt="github"
@@ -211,7 +189,7 @@ const Works = () => {
       </div>
       {/* container for projects */}
       <div
-        className="mt-20 flex flex-wrap gap-2 "
+        className="mt-20 flex md:flex-row flex-wrap gap-2 min-w-screen w-full sm:flex-col sm:justify-center"
         // style={{ overflowX: 'auto', overflowY: 'hidden' }}
       >
         {projects.map((project, index) => (

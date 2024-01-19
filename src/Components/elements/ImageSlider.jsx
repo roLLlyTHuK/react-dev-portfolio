@@ -1,6 +1,5 @@
-
-import { useEffect, useState, useRef } from "react";
-import { m, LazyMotion, domAnimation } from "framer-motion";
+import { useEffect, useState, useRef } from 'react';
+import { m, LazyMotion, domAnimation } from 'framer-motion';
 
 const ImageSlider = ({ images }) => {
   const [index, setIndex] = useState(0);
@@ -10,7 +9,7 @@ const ImageSlider = ({ images }) => {
   useEffect(() => {
     const interval = setInterval(() => {
       if (isInViewport) {
-        setIndex((i) => (i + 1) % images.length);
+        setIndex(i => (i + 1) % images.length);
       }
     }, 3000);
 
@@ -38,7 +37,7 @@ const ImageSlider = ({ images }) => {
         whileInView={{ x: 0, opacity: 1 }}
         transition={{
           duration: 0.5,
-          type: "spring",
+          type: 'spring',
           stiffness: 100,
           damping: 20,
         }}

@@ -102,7 +102,7 @@ const projects = [
   {
     name: 'Bookshelf',
     description:
-      'Team project. A website with a responsive layout, included auth, filterd by cathegory, add book to shopping-list.    Role: SCRUM Master, developer, header/modal/authorization/backend connections. Stack: HTML, CSS, JavaScript, Vite, REST API, Firebase',
+      'Team project. A website with a responsive layout, included auth, filterd by cathegory, add book to shopping-list. Role: SCRUM Master, developer, header/ modal/ auth. Stack: HTML, CSS, JavaScript, Vite, REST API, Firebase',
     image: bookshelf,
     source_code_link: '',
     demo_link: '',

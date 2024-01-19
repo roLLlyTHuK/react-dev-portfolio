@@ -1,4 +1,3 @@
-import { motion } from 'framer-motion';
 import { skills } from '../Constants/constants';
 
 const SkillsCards = () => {
@@ -8,7 +7,7 @@ const SkillsCards = () => {
         display: 'flex',
         flexDirection: 'row',
         gap: '20px',
-        margin: '20px auto',
+        margin: '20px 10px',
         justifyContent: 'center',
       }}
     >

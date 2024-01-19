@@ -1,13 +1,4 @@
-/*
-   Copyright (C), 2023-2024, Sara Echeverria (bl33h)
-   Author: Sara Echeverria
-   FileName: HeroScroller.jsx
-   Version: I
-   Creation: 02/06/2023
-   Last modification: 02/06/2023
-*/
-
-import { m } from "framer-motion";
+import { m } from 'framer-motion';
 
 const HeroScroller = () => {
   return (
@@ -24,7 +15,7 @@ const HeroScroller = () => {
             transition={{
               duration: 2,
               repeat: Infinity,
-              repeatType: "loop",
+              repeatType: 'loop',
             }}
             className="w-3 h-3 rounded-full bg-primary-400 mb-1"
           />
