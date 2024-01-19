@@ -1,8 +1,8 @@
 import { motion } from 'framer-motion';
-import { styles } from '../styles';
-import { projects } from '../Constants/constants';
 import { Tilt } from 'react-tilt';
+import { projects } from '../Constants/constants';
 import { githubIcon, htmlIcon } from '../assets';
+import { styles } from '../styles';
 
 export const staggerContainer = (staggerChildren, delayChildren) => {
   return {
@@ -101,8 +101,8 @@ const SectionWrapper = (Component, idName) =>
         initial="hidden"
         whileInView="show"
         viewport={{ once: true, amount: 0.25 }}
-        className={`${styles.padding} max-w-7xl mx-auto relative z-0 my-[-17%] w-[500%]`}
-        style={{ marginLeft: '-20%' }}
+        className={`${styles.padding} max-w-[100vw] mx-auto relative z-0 my-[-17%] w-[500%]`}
+        // style={{ marginLeft: '-20%' }}
       >
         <span className="hash-span" id={idName}>
           &nbsp;
