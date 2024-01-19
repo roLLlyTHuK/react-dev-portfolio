@@ -2,7 +2,7 @@ import { useRef, useState } from 'react';
 import { Typewriter } from 'react-simple-typewriter';
 import emailjs from '@emailjs/browser';
 
-const ContactForm = () => {
+function ContactForm() {
   const [isSent, setIsSent] = useState(false);
   const form = useRef();
 
@@ -10,7 +10,7 @@ const ContactForm = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm('whoisbl33h', 'template1', e.target, 'JjC_Nnt4rUsjIsRtz')
+      .sendForm('Andrii Dovhaniuk', 'template1', e.target, 'wpjoDv-qzr2nzpGhh')
       .then(
         result => {
           document.getElementById('contact_form').reset();
@@ -39,7 +39,7 @@ const ContactForm = () => {
           style={{ fontFamily: 'Morganite Bold, sans-serif' }}
           className="message text-7xl bg-primary-600 p-2 rounded-xl text-grayscale-200 text-center rounded-br-[0%] relative shadow-2xl"
         >
-          <Typewriter words={["Let's get in touch!"]} loop={true} />
+          <Typewriter words={["I'm waiting for you offers!"]} loop />
           &nbsp;
         </h2>
       </div>
@@ -93,7 +93,7 @@ const ContactForm = () => {
               placeholder="Enter your message..."
               name="message"
               required
-            ></textarea>
+            />
           </div>
           <div className="w-full flex justify-center">
             <input
@@ -106,6 +106,6 @@ const ContactForm = () => {
       </div>
     </div>
   );
-};
+}
 
 export default ContactForm;
