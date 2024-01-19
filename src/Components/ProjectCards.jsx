@@ -128,13 +128,13 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className="text-grayscale-50 p-1 rounded-lg sm:w-[200px]  w-full"
+        className="text-grayscale-50 px-3 rounded-lg sm:w-[250px]  w-full shadow-2xl"
       >
         <div className="relative w-full h-[180px]">
           <img
             src={image}
             alt={name}
-            className="w-full h-full object-contain object-top rounded-lg"
+            className="w-full h-full object-cover  object-top rounded-lg "
           />
         </div>
 
@@ -187,7 +187,7 @@ const Works = () => {
       </div>
       {/* container for projects */}
       <div
-        className="mt-20 flex md:flex-row flex-wrap gap-2 min-w-screen w-full sm:flex-col sm:justify-center"
+        className="mt-20 flex md:flex-row flex-wrap gap-4 min-w-screen w-full sm:flex-col sm:justify-center"
         // style={{ overflowX: 'auto', overflowY: 'hidden' }}
       >
         {projects.map((project, index) => (
