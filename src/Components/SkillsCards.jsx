@@ -1,29 +1,30 @@
-import { skills } from '../Constants/constants';
+import { skills } from "../Constants/constants";
 
 const SkillsCards = () => {
   return (
     <div
       style={{
-        display: 'flex',
-        gap: '20px',
-        margin: '20px 10px',
-        justifyContent: 'center',
+        display: "flex",
+        gap: "20px",
+        margin: "20px 10px",
+        justifyContent: "center",
+        width: "100%",
       }}
     >
       {skills.map((skill, index) => (
         <div
           key={index}
           style={{
-            display: 'flex',
-            flexDirection: 'column',
-            alignItems: 'center',
-            justifyContent: 'center',
-            gap: '10px',
-            width: '100px',
-            height: '100px',
-            cursor: 'pointer',
-            borderRadius: '10px',
-            backgroundColor: 'rgba(255, 255, 255, 0.2)',
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            justifyContent: "center",
+            gap: "10px",
+            width: "100px",
+            height: "100px",
+            cursor: "pointer",
+            borderRadius: "10px",
+            backgroundColor: "rgba(255, 255, 255, 0.2)",
           }}
         >
           <img
@@ -33,8 +34,8 @@ const SkillsCards = () => {
           />
           <span
             style={{
-              fontFamily: 'Poppins, sans-serif',
-              fontWeight: 'bold',
+              fontFamily: "Poppins, sans-serif",
+              fontWeight: "bold",
             }}
           >
             {skill.title}
