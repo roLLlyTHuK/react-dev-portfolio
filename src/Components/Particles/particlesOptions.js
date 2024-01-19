@@ -97,7 +97,7 @@ export const heroOptions = {
       repulse: {
         distance: 200,
         factor: 200,
-        speed: 1,
+        speed: 1.5,
         maxSpeed: 50,
       },
     },
@@ -117,8 +117,8 @@ export const heroOptions = {
         value: 90,
       },
       center: {
-        x: 50,
-        y: 50,
+        x: 10,
+        y: 10,
         mode: 'percent',
         radius: 0,
       },
@@ -132,14 +132,14 @@ export const heroOptions = {
     },
     number: {
       limit: 0,
-      value: 40,
+      value: 50,
     },
 
     opacity: {
       random: {
         enable: true,
         minimumValue: 0.4,
-        maxValue: 0.6,
+        maxValue: 0.8,
       },
       value: 0.6,
       animation: {
@@ -196,6 +196,34 @@ export const heroOptions = {
           font: 'Font Awesome 6 Brands',
           style: '',
           value: ['\uf41f'],
+          weight: '400',
+        },
+        {
+          fill: true,
+          font: 'Font Awesome 6 Brands',
+          style: '',
+          value: ['\uf395'],
+          weight: '400',
+        },
+        {
+          fill: true,
+          font: 'Font Awesome 6 Brands',
+          style: '',
+          value: ['\uf6cc'],
+          weight: '400',
+        },
+        {
+          fill: true,
+          font: 'Font Awesome 6 Brands',
+          style: '',
+          value: ['\uf09b'],
+          weight: '400',
+        },
+        {
+          fill: true,
+          font: 'Font Awesome 6 Brands',
+          style: '',
+          value: ['\uf419'],
           weight: '400',
         },
       ],

@@ -31,8 +31,14 @@ const Navbar = () => {
               fontSize: '18px',
             }}
           >
-            Andrii/
-            <span style={{ color: 'tomato', fontWeight: '800' }}>
+            Andrii
+            <span
+              style={{
+                color: 'tomato',
+                fontWeight: '800',
+                textTransform: 'uppercase',
+              }}
+            >
               Dovhaniuk
             </span>
           </p>
