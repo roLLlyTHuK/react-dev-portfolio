@@ -32,7 +32,12 @@ const Contact = () => {
         <div className="bg-grayscale-950 flex justify-center pb-4 text-grayscale-50">
           <span>
             Thank's{' '}
-            <em>Sara Echeverría (bl33h) for the great idea of portfolio</em>
+            <em>
+              <a href="https://www.linkedin.com/in/saraech" target="_blank">
+                Sara Echeverría (bl33h)
+              </a>
+              for the great idea of portfolio
+            </em>
           </span>
         </div>
       </div>
