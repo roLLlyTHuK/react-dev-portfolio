@@ -1,16 +1,7 @@
-/*
-   Copyright (C), 2023-2024, Sara Echeverria (bl33h)
-   Author: Sara Echeverria
-   FileName: HeroText.jsx
-   Version: I
-   Creation: 02/06/2023
-   Last modification: 03/06/2023
-*/
-
 import { m, LazyMotion, domAnimation } from 'framer-motion';
 
 const HeroText = () => {
-  const name = 'I am ?';
+  const name = 'Hello!';
 
   return (
     <div
@@ -25,13 +16,13 @@ const HeroText = () => {
           className="text-center flex justify-center items-center flex-col opacity-100 text-7xl sm:text-9xl cursor-default"
           style={{ fontFamily: 'SuperMario' }}
         >
-          <m.span
+          {/* <m.span
             initial={{ x: -100 }}
             whileInView={{ x: 0 }}
             transition={{ duration: 0.6, type: 'spring' }}
           >
             Who{' '}
-          </m.span>
+          </m.span> */}
           <m.div
             initial={{ x: 100 }}
             whileInView={{ x: 0 }}

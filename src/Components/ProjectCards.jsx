@@ -11,7 +11,7 @@ import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { projects } from '../Constants/constants';
 import { Tilt } from 'react-tilt';
-import { githubIcon } from '../assets';
+import { githubIcon, htmlIcon } from '../assets';
 
 export const staggerContainer = (staggerChildren, delayChildren) => {
   return {
@@ -138,8 +138,7 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className="text-grayscale-50 p-5 rounded-lg sm:w-[280px] w-full"
-        style={{ marginTop: '-120%' }}
+        className="text-grayscale-50 p-1 rounded-lg sm:w-[280px] w-full"
       >
         <div className="relative w-full h-[180px]">
           <img
@@ -170,11 +169,30 @@ const ProjectCard = ({
         <div className="mt-2 flex flex-wrap gap-1"></div>
         <div className="mt-3 flex justify-center items-center">
           <a
-            className="shadow-md shadow-primary m-3 p-2 bg-tertiary w-[60%] rounded-lg flex justify-center"
+            className="shadow-md shadow-primary m-3 p-2 bg-tertiary w-[60%] rounded-lg flex justify-center items-center"
+            href={source_code_link}
+            target="_blank"
+          >
+            {' '}
+            <img
+              src={githubIcon}
+              alt="github"
+              className="w-8 h-8 object-contain"
+            />
+            Code
+          </a>
+          <a
+            className="shadow-md shadow-primary m-3 p-2 bg-tertiary w-[60%] rounded-lg flex justify-center items-center"
             href={demo_link}
             target="_blank"
           >
-            See the Demo
+            {' '}
+            <img
+              src={htmlIcon}
+              alt="github"
+              className="w-8 h-8 object-contain"
+            />
+            Page
           </a>
         </div>
       </Tilt>
@@ -191,8 +209,11 @@ const Works = () => {
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         ></motion.p>
       </div>
-
-      <div className="mt-20 flex flex-wrap gap-7">
+      {/* container for projects */}
+      <div
+        className="mt-20 flex flex-wrap gap-2 "
+        // style={{ overflowX: 'auto', overflowY: 'hidden' }}
+      >
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}

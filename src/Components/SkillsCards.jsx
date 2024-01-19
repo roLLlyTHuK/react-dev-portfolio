@@ -1,4 +1,4 @@
-import { m, LazyMotion, domAnimation } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { skills } from '../Constants/constants';
 
 const SkillsCards = () => {
@@ -29,7 +29,7 @@ const SkillsCards = () => {
           }}
         >
           <img
-            className="h-[50px] flex justify-center items-center w-[50px]  bg-primary-600 rounded-[50%] p-1 object-contain"
+            className="h-[50px] flex justify-center items-center w-[50px]   rounded-[50%] p-1 object-contain"
             src={skill.icon}
             alt={skill.title}
           />
