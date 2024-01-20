@@ -1,12 +1,11 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
-// import dotenv from "dotenv";
+import mdx from '@mdx-js/rollup'
 
-// dotenv.config();
 
 export default defineConfig({
-  plugins: [react()],
-  // server: {
-  //   host: true,
-  // },
-});
+  plugins: [
+    { enforce: 'pre', ...mdx() },
+    react({ include: /\.(mdx|js|jsx|ts|tsx)$/ }),
+  ],
+})

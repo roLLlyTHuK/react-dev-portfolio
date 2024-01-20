@@ -73,6 +73,12 @@ export const heroOptions = {
         },
       },
 
+      onclick: {
+        enable: true,
+        mode: "push",
+        
+      },
+
       resize: {
         delay: 0.5,
         enable: true,
