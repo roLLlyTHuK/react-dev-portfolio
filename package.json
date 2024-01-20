@@ -58,7 +58,7 @@
     "postcss": "^8.4.21"
   },
   "description": "This software uses the following open source packages:",
-  "main": "postcss.config.js",
+  "main": "main.js",
   "keywords": [],
   "author": "",
   "license": "ISC"
