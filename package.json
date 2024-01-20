@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=//",
+    "build": "vite build --base=/react-dev-portfolio/",
     "preview": "vite preview"
   },
   "dependencies": {
