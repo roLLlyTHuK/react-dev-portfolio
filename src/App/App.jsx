@@ -5,15 +5,18 @@ import About from '../Pages/About';
 import Skills from '../Pages/Skills';
 import Contact from '../Pages/Contact';
 
+
 function App() {
   return (
     <div>
+     
       <NavBar />
       <Hero />
       <About />
       <Projects />
       <Skills />
       <Contact />
+   
     </div>
   );
 }
