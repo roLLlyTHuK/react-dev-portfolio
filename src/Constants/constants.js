@@ -96,56 +96,56 @@ const projects = [
     description:
       "Individual project. Chat app with user authorisation, user search, ability to send messages, photos. Stack: HTML / SASS, styled-components, React, Firebase Authentication, Firestore",
     image: messenger,
-    source_code_link: "",
-    demo_link: "",
+    source_code_link: "https://github.com/roLLlyTHuK/pet-chat",
+    demo_link: "https://rolllythuk.github.io/pet-chat/login",
   },
   {
     name: "Bookshelf",
     description:
       "Team project. A website with a responsive layout, auth, filterd by cathegory, add book to wishlist. Role: SCRUM, developer, header/ modal/ auth. Stack: HTML, CSS, JavaScript, REST API, Firebase",
     image: bookshelf,
-    source_code_link: "",
-    demo_link: "",
+    source_code_link: "https://github.com/roLLlyTHuK/BookShelf",
+    demo_link: "https://rolllythuk.github.io/BookShelf/",
   },
   {
     name: "Phonebook",
     description:
       "Individual project. Phonebook app with user authorisation, user filter, ability to add/remove user, connected to Swagger backend API. Stack: HTML, React, Redux Toolkit, MUI.",
     image: phonebook,
-    source_code_link: "",
-    demo_link: "",
+    source_code_link: "https://github.com/roLLlyTHuK/phonebook",
+    demo_link: "https://rolllythuk.github.io/phonebook",
   },
   {
     name: "MoviesDB",
     description:
       "Individual project. Movies base app with recent movies, movie search, movie details, connected to themoviedb.org.  Stack: HTML, React, Styled Components, Axios, REST API",
     image: moviedb,
-    source_code_link: "",
-    demo_link: "",
+    source_code_link: "https://github.com/roLLlyTHuK/goit-react-hw-05-movies",
+    demo_link: "https://rolllythuk.github.io/goit-react-hw-05-movies/",
   },
   {
     name: "Finder",
     description:
       "Individual project. A website with a responsive layout for search photo/video on Pixabay.com, included search via tags. Stack: HTML, CSS, JavaScript, REST API, Parcel",
     image: finder,
-    source_code_link: "",
-    demo_link: "",
+    source_code_link: "https://github.com/roLLlyTHuK/finder4Pixabay",
+    demo_link: "https://rolllythuk.github.io/finder4Pixabay/",
   },
   {
     name: "Yacht Adventures",
     description:
       "Team project. A website with a pesponsive layout. Role: SCRUM, developer, gallery section/page animations. Stack: HTML, CSS, JavaScript, SwiperJS, AOS, Vite Vanilla",
     image: yachts,
-    source_code_link: "",
-    demo_link: "",
+    source_code_link: "https://github.com/roLLlyTHuK/yachts-adventures",
+    demo_link: "https://bonny-art.github.io/project-tp-01/",
   },
   {
     name: "Web Studio",
     description:
       "Individual project. A website with a pesponsive layout. Stack: HTML, CSS, Vite",
     image: webstudio,
-    source_code_link: "",
-    demo_link: "",
+    source_code_link: "https://github.com/roLLlyTHuK/goit-markup-hw-06",
+    demo_link: "https://rolllythuk.github.io/goit-markup-hw-06/",
   },
 ];
 
