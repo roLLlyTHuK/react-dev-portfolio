@@ -8,7 +8,7 @@ import './index.css';
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter basename="">
+    <BrowserRouter basename="react-dev-portfolio/">
       <PreloadMedia images={Object.values(media)}>
         <App />
       </PreloadMedia>
