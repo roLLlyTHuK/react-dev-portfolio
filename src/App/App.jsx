@@ -8,7 +8,7 @@ import Contact from '../Pages/Contact';
 
 function App() {
   return (
-    <div>
+    <>
      
       <NavBar />
       <Hero />
@@ -17,7 +17,7 @@ function App() {
       <Skills />
       <Contact />
    
-    </div>
+    </>
   );
 }
 
