@@ -128,7 +128,7 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className="text-grayscale-50 px-3 rounded-lg sm:w-[250px]  w-full shadow-2xl"
+        className="text-grayscale-50 px-3 rounded-lg md:w-[250px] sm:w-[500px]  w-full shadow-2xl"
       >
         <div className="relative w-full h-[180px]">
           <img

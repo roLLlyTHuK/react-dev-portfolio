@@ -5,10 +5,11 @@ const SkillsCards = () => {
     <div
       style={{
         display: "flex",
-        gap: "20px",
-        margin: "20px 10px",
+        flexWrap: "wrap",
+        gap: "10px",
         justifyContent: "center",
         width: "100%",
+               
       }}
     >
       {skills.map((skill, index) => (
