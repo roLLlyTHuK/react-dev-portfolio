@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <div
       id="hero"
-      className="w-full flex justify-center overflow-hidden-web relative"
+      className="w-full h-[100dvh] flex justify-center overflow-hidden-web relative"
     >
       <LazyMotion features={domAnimation} strict>
         <m.div
