@@ -34,9 +34,9 @@ const Contact = () => {
             Thank's{' '}
             <em>
               <a href="https://www.linkedin.com/in/saraech" target="_blank">
-                Sara Echeverría (bl33h)
+                Sara Echeverría
               </a>
-              for the great idea of portfolio
+              {" "}for the great idea of portfolio
             </em>
           </span>
         </div>
