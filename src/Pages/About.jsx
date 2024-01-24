@@ -11,7 +11,7 @@ const About = () => {
         <div className="w-full">
           <SectionTitle title="ABOUT ME" subtitle="Introduction" />
         </div>
-        <div className="w-full flex flex-col-reverse sm:flex-row">
+        <div className="w-full flex flex-col-reverse sm:flex-row" >
           <div className="w-full md:w-[50%] md:h-full flex items-center mt-10">
             <LazyMotion features={domAnimation} strict>
               <m.p
@@ -36,7 +36,7 @@ const About = () => {
             </LazyMotion>
           </div>
           <div className="w-full md:w-[50%] flex h-full items-center justify-center">
-            <div className="w-[50%] lg:w-[80%] h-[300px] md:h-full sm:h-[550px] flex justify-center items-center">
+            <div className="w-[50%] lg:w-[80%] h-[300px] sm:h-[550px] flex justify-center items-center">
               <ImageSlider images={memoji.image} />
             </div>
           </div>
