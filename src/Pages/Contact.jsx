@@ -29,7 +29,7 @@ const Contact = () => {
       </div>
       <div className="w-full flex flex-col">
         <SocialLinks />
-        <div className="bg-grayscale-950 flex justify-center pb-4 text-grayscale-50">
+        <div className="bg-grayscale-950 flex justify-center pb-4 text-center text-grayscale-50">
           <span>
             Thank's{' '}
             <em>
