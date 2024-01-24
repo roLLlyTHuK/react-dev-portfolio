@@ -10,15 +10,16 @@ function ContactForm() {
     e.preventDefault();
 
     emailjs
-      .sendForm("Andrii Dovhaniuk", "template1", e.target, "wpjoDv-qzr2nzpGhh")
+      .sendForm("service_p0enpuq", "template_1w9oabz", e.target, "wpjoDv-qzr2nzpGhh")
       .then(
         (result) => {
-          document.getElementById("contact_form").reset();
+          // document.getElementById("contact_form").reset();
+          form.current.reset();
           setIsSent(true);
           alert("Thank you I will get back to you as soon as possible ! (:");
         },
         (error) => {
-          console.error(error);
+          console.error(error.message);
           setIsSent(false);
         }
       );
