@@ -9,6 +9,7 @@ const SkillsCards = () => {
         gap: "10px",
         justifyContent: "center",
         width: "100%",
+        
                
       }}
     >
@@ -26,8 +27,10 @@ const SkillsCards = () => {
             cursor: "pointer",
             borderRadius: "10px",
             backgroundColor: "rgba(255, 255, 255, 0.2)",
+            
           }}
         >
+          <div className="overlay"></div>
           <img
             className="h-[50px] flex justify-center items-center w-[50px]   rounded-[50%] p-1 object-contain"
             src={skill.icon}

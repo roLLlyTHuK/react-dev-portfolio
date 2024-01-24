@@ -30,6 +30,8 @@ const About = () => {
                 <span>{introduction.text[1]}</span>
                 <span>{introduction.text[2]}</span>
                 <span>{introduction.text[3]}</span>
+                <span className="text-primary-400 hover:scale-110 mt-4"> <a href="src/assets/Andrii_Dovhaniuk_frontend.pdf" target="_blank" className="text-primary-400 border-y-2 px-4 py-2 w-fit ">See resume</a></span>
+               
               </m.p>
             </LazyMotion>
           </div>

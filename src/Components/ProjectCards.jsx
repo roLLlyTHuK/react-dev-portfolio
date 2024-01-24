@@ -162,6 +162,7 @@ const ProjectCard = ({
             className="shadow-md shadow-primary m-3 p-2 bg-tertiary w-[120px] rounded-lg flex justify-center items-center"
             href={demo_link}
             target="_blank"
+           
           >
             <img
               src={htmlIcon}

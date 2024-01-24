@@ -11,7 +11,7 @@ const Skills = () => {
     >
       <div className="w-[100%] flex flex-col xl:w-[70%] " >
         <SectionTitle title="SKILLS" subtitle="WHAT I DO" />
-        <div className="w-[60%] flex justify-center items-center mx-auto my-auto md:w-[80%] sm:w-[100%]" >
+        <div className="w-[60%] flex justify-center items-center mx-auto my-auto md:w-[80%] sm:w-[100%]">
           {/* <MarqueeCards direction="right"> */}
             <SkillsCards />
           {/* </MarqueeCards> */}
