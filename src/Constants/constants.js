@@ -30,6 +30,7 @@ import {
   phonebook,
   webstudio,
   yachts,
+  charivne,
   avatar,
 } from "../assets";
 
@@ -146,6 +147,14 @@ const projects = [
     image: webstudio,
     source_code_link: "https://github.com/roLLlyTHuK/goit-markup-hw-06",
     demo_link: "https://rolllythuk.github.io/goit-markup-hw-06/",
+  },
+  {
+    name: "Charivne zerniatko",
+    description:
+      "Individual commerce project. A landing page with a pesponsive layout. Stack: HTML, CSS, JavaScript, SwiperJS, AOS, Vite",
+    image: charivne,
+    source_code_link: "https://github.com/roLLlyTHuK/cz_v2",
+    demo_link: "https://charivne-zerniatko.netlify.app",
   },
 ];
 

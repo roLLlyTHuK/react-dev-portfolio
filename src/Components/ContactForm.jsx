@@ -13,7 +13,6 @@ function ContactForm() {
       .sendForm("service_p0enpuq", "template_1w9oabz", e.target, "wpjoDv-qzr2nzpGhh")
       .then(
         (result) => {
-          // document.getElementById("contact_form").reset();
           form.current.reset();
           setIsSent(true);
           alert("Thank you I will get back to you as soon as possible ! (:");
@@ -100,7 +99,7 @@ function ContactForm() {
             <input
               className="w-[100px] h-[50px] bg-primary-600 rounded-xl cursor-pointer hover:bg-primary-700"
               type="submit"
-              value={!isSent ? "Send" : "Done!"}
+              value={!isSent ? "Send" : "Done! Newsletter Sent"}
             />
           </div>
         </form>
